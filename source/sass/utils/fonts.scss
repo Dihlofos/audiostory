@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Pervye Book";
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: local("Pervye Book"),
+    url("../fonts/Pervye-Book.woff2") format("woff2"),
+    url("../fonts/Pervye-Book.woff") format("woff");
+}
+
+
+@font-face {
+  font-family: "Pervye Extended Bold";
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: local("Pervye Extended Bold"),
+    url("../fonts/PervyeExtended-Bold.woff2") format("woff2"),
+    url("../fonts/PervyeExtended-Bold.woff") format("woff");
+}
