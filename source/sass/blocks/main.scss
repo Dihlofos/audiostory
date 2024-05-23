@@ -11,6 +11,10 @@
     padding-top: 17.9rem;
   }
 
+  @media (max-height: 630px) {
+    padding-top: 10rem;
+  }
+
   &__content {
     display: flex;
     flex-direction: column;
@@ -132,6 +136,43 @@
 
     @media (max-width: $tablet) {
       display: block;
+    }
+
+    @media (min-height: 1101px) {
+      display: none;
+    }
+
+    @media (max-height: 1100px) {
+      width: 75rem;
+      bottom: -7.2rem;
+    }
+
+    @media (max-height: 1050px) {
+      width: 75rem;
+      left: -27.4rem;
+      bottom: -18.2rem;
+    }
+
+    @media (max-height: 900px) {
+      width: 65rem;
+      left: -27.4rem;
+      bottom: -21.2rem;
+    }
+
+    @media (max-height: 850px) {
+      width: 73rem;
+      left: -36.4rem;
+      bottom: -34.2rem;
+    }
+
+    @media (max-height: 800px) {
+      width: 73rem;
+      left: -36.4rem;
+      bottom: -34.2rem;
+    }
+
+    @media (max-height: 750px) {
+      display: none;
     }
   }
 
