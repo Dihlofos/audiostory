@@ -189,6 +189,10 @@
     @media (max-height: 750px) {
       bottom: -39.2rem;
     }
+
+    @media (max-height: 530px) {
+      display: none;
+    }
   }
 
   &__decor-mobile-top {
