@@ -1,11 +1,11 @@
 .main {
   position: relative;
-  height: 100dvh;
+  height: calc(var(--vh, 1vh) * 100);
   width: 100vw;
   display: flex;
   justify-content: center;
   max-width: 1440px;
-  padding-top: 22dvh;
+  padding-top: calc(var(--vh, 1vh) * 22);
 
   @media (max-width: $tablet) {
     padding-top: 17.9rem;
